@@ -1,0 +1,42 @@
+---
+title: Hi Hugo
+author: Hank Lee
+date: '2021-05-01'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-05-01T21:59:13+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# 這是我的第一份貼文  
+
+* 要貼圖片或讀資料時，用相對路徑。例如我貼以下這張圖：  
+
+![](blogdown.png)  
+
+# 來些 R code 吧  
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+
+# 看 table
+mtcars
+
+# 畫個圖
+mtcars %>%
+  ggplot(aes(x = mpg, y = hp)) +
+  geom_point() +
+  theme_bw()
+```
+
+
+
